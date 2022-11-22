@@ -1,0 +1,12 @@
+#title h1 {
+    animation: moveToRight 15s infinite linear;
+    animation-delay: 800ms;
+}
+@keyframes moveToRight {
+    0% {
+      transform: translateX(-2000px);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+}

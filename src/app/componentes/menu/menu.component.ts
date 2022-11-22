@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
 
+  openClose(){
+    document.getElementById('menumobile')?.classList.toggle('visivel')
+  }
 }
