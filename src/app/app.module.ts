@@ -8,6 +8,7 @@ import { MenuComponent } from './componentes/menu/menu.component';
 import { TitleComponent } from './componentes/title/title.component';
 import { SobremimComponent } from './componentes/sobremim/sobremim.component';
 import { TimelineComponent } from './componentes/timeline/timeline.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TimelineComponent } from './componentes/timeline/timeline.component';
     MenuComponent,
     TitleComponent,
     SobremimComponent,
-    TimelineComponent
+    TimelineComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
