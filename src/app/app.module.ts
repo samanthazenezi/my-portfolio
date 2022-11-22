@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { TitleComponent } from './componentes/title/title.component';
 import { SobremimComponent } from './componentes/sobremim/sobremim.component';
+import { TimelineComponent } from './componentes/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SobremimComponent } from './componentes/sobremim/sobremim.component';
     HomeComponent,
     MenuComponent,
     TitleComponent,
-    SobremimComponent
+    SobremimComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
